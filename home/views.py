@@ -4,6 +4,6 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("lll")
 def home(request):
-    return render(request, 'seddit/index.html')
+    return HttpResponse('seddit/home.html')
 
 # Create your views here.
